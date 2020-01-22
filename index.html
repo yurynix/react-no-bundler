@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <h1>My Aesome App!</h1>
+    <body>
+        <div id="react-root"></div>
+        <!-- We can just init our react app here inline -->
+        <script type="module">
+            import ReactDOM from '/web_modules/react-dom.js'; 
+            import { html } from '/web_modules/htm/react.js';
+            import App from '/src/app.js';
+            ReactDOM.render(html`<${App} />`, document.getElementById('react-root'));
+        </script>
+    </body>
+</html>

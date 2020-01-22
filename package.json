@@ -1,0 +1,29 @@
+{
+  "name": "react-pika-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pika-web": "pika-web",
+    "serve": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "@pika/web": {
+    "webDependencies": [
+      "htm/react",
+      "react",
+      "react-dom"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htm": "^2.2.1",
+    "react": "npm:@reactesm/react",
+    "react-dom": "npm:@reactesm/react-dom"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.6.1",
+    "serve": "^11.2.0"
+  }
+}
